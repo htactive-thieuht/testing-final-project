@@ -1,0 +1,471 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4391735200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website http://127.0.0.1:8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1:8000",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Account successfully",
+        "description": "",
+        "id": "customer-login;login-account-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2572834500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login Customer button to login",
+            "match": {
+              "location": "logintest.clickLog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8114856100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type email name as thieuht@htactive.com, password as 123123123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thieuht@htactive.com",
+                  "offset": 21
+                },
+                {
+                  "val": "123123123",
+                  "offset": 55
+                }
+              ],
+              "location": "logintest.setEmailPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5051326800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click submit login button",
+            "match": {
+              "location": "logintest.clickButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4892937400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click log out",
+            "match": {
+              "location": "logintest.clickButtonLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3586831100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website http://127.0.0.1:8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1:8000",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login Account successfully",
+        "description": "",
+        "id": "customer-login;login-account-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2564392300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login Customer button to login",
+            "match": {
+              "location": "logintest.clickLog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8117429900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I type email name as mong.hopn@gmail.com, password as 1234mong",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mong.hopn@gmail.com",
+                  "offset": 21
+                },
+                {
+                  "val": "1234mong",
+                  "offset": 54
+                }
+              ],
+              "location": "logintest.setEmailPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5142283100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click submit login button",
+            "match": {
+              "location": "logintest.clickButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5144162100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click log out",
+            "match": {
+              "location": "logintest.clickButtonLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3594979500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website http://127.0.0.1:8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1:8000",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Login Account unsuccessfully with blank data",
+        "description": "",
+        "id": "customer-login;login-account-unsuccessfully-with-blank-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2550181100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login Customer button to login",
+            "match": {
+              "location": "logintest.clickLog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8084048000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I type email name as , password as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 35
+                }
+              ],
+              "location": "logintest.setEmailPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4701559100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click submit login button",
+            "match": {
+              "location": "logintest.clickButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3771230300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website http://127.0.0.1:8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1:8000",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Login Account unsuccessfully with blank password",
+        "description": "",
+        "id": "customer-login;login-account-unsuccessfully-with-blank-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2588269900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Login Customer button to login",
+            "match": {
+              "location": "logintest.clickLog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8098460500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I type email name as admin, password as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 40
+                }
+              ],
+              "location": "logintest.setEmailPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4772130000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click submit login button",
+            "match": {
+              "location": "logintest.clickButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3672448200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website http://127.0.0.1:8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://127.0.0.1:8000",
+                  "offset": 13
+                }
+              ],
+              "location": "CommonTest.user_already_on_home_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Login Account unsuccessfully with account not register",
+        "description": "",
+        "id": "customer-login;login-account-unsuccessfully-with-account-not-register;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2589897700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on Login Customer button to login",
+            "match": {
+              "location": "logintest.clickLog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8099233700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I type email name as thieu.ho@student.passerellesnumeriques.org, password as thieuho123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thieu.ho@student.passerellesnumeriques.org",
+                  "offset": 21
+                },
+                {
+                  "val": "thieuho123456",
+                  "offset": 77
+                }
+              ],
+              "location": "logintest.setEmailPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4759366000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click submit login button",
+            "match": {
+              "location": "logintest.clickButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Customer login",
+    "description": "In order to user can log in, I want to see my profile so I can log in easily",
+    "id": "customer-login",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/loginHandMade/login.feature"
+  }
+]
